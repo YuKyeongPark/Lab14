@@ -2,7 +2,7 @@ package edu.handong.csee.java.Lab14.exceptionhandle.prob1;//package name
 import java.util.Random;	//import Random class
 import java.util.Scanner;	//import Scanner class
 
-public class Main {		//Main is class name and modifier is public.
+public class SpeedLimiterMain {		//Main is class name and modifier is public.
 
 	public static void main(String[] args) {	//main method
 
