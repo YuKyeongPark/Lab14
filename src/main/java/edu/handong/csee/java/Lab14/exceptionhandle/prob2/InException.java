@@ -10,7 +10,7 @@ public class InException {	//InException class which is blueprint of object
 		//constructor
 	}
 	
-	public void errorDet() {	//method to include try-catch condition
+	public void detError() {	//method to include try-catch condition
 		try {		//just be executed
 			Scanner myKeyboard = new Scanner(System.in);	//Scanner instantiation
 			System.out.print("x: ");	//prints "x:"

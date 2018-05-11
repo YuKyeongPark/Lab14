@@ -40,7 +40,7 @@ public class CustomID extends Exception{
 	public void setRace(String race) throws Exception{	
 		for(int i = 0; i < races.length; i++)	//for loop is executed from i=0 to i=length of races
 		{
-			if(races[i].equals(race)) {	//comparing, if String array 'races' equals parameter race
+			if(races[i].equals(race)) {	//comparing between array 'races' and parameter race, if String array 'races' equals parameter race
 				this.race = races[i];	//puts value of String array 'races' into class variable 'race'
 				System.out.println("Race is valid");	//prints text
 				System.out.println("Race: " + races[i]);	//prints race name

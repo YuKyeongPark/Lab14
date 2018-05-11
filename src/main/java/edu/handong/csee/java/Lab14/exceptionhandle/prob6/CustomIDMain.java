@@ -8,10 +8,10 @@ public class CustomIDMain {	//CustomIDMain class has main method
 		Scanner myKeyboard = new Scanner(System.in);	//Scanner instantiation
 		CustomID cid = new CustomID();	//CustomID constructor
 		boolean repeat = true;	//declares boolean type 'repeat' variable and initiates true
-		while(repeat)	//when repeat is true, loop is executed
+		while(repeat)	//if repeat is true, the while loop continues to execute.
 		{
 			try {	//just be executed
-				if(cid.getState() == 0) {	//if state is zero(name length is smaller than 5 and race is valid)
+				if(cid.getState() == 0) {	//if state is zero(initial state, name lengh is smaller than 5 or all information is entered)
 					System.out.print("Enter your name: ");	//prints text
 					name = myKeyboard.nextLine();	//user can input String type value into 'name' by using myKeyboard
 					cid.setName(name);	//calls setName method
