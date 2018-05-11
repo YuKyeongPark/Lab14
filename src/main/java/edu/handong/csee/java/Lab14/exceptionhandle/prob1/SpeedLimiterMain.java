@@ -18,6 +18,7 @@ public class SpeedLimiterMain {		//Main is class name and modifier is public.
 		speedLimiter.warnSpeedLimit();	//calls SpeedLimiter's method warnSpeedLimit 
 		
 		myKeyboard.close();	//keyboard close
+
 	}
 	
 	

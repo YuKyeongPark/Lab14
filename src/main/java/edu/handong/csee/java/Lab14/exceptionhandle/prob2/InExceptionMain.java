@@ -8,6 +8,7 @@ public class InExceptionMain {	//InExceptionMain is class name and modifier is p
 		int x, y;	//declares and initiates variables
 		InException inExeption = new InException();	//InException 8instantiation
 		inExeption.detError();	//calls InException's method named errorDet
+
 	}
 
 }

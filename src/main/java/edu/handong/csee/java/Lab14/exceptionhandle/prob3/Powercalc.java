@@ -11,5 +11,6 @@ public class Powercalc {	//Powercalc class which is blueprint of object
 			throw new Exception("n or p should not be negative.");	//throw Exception with text
 		
 		return result;//return value of result 
+
 	}
 }

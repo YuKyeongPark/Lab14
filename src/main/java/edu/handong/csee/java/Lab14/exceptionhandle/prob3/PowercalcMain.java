@@ -16,6 +16,7 @@ public class PowercalcMain {	//PowercalcMain class has main method
 				System.out.println(myCalculator.power(n, p));	//calls method of Powercalc 'power' and checks if the condition is met.
 			}catch (Exception e) {	//gets exception
 				System.out.println(e);	//print exception
+
 			}
 		}
 	}

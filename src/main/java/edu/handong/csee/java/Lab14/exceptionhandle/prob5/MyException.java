@@ -2,7 +2,7 @@ package edu.handong.csee.java.Lab14.exceptionhandle.prob5;	//package name
 	
 //MyException class is created and also inherit Exception parent class.
 public class MyException extends Exception{	
-	String str = null;
+	String str = null;	//declares and initializes string type variable 'str' to 'null'
 	
 	public MyException(){	//receiving error message through constructor
 		super();	//inherit parent class and receive the error message

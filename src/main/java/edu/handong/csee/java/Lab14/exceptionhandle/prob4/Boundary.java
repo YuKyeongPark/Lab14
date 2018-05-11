@@ -9,6 +9,7 @@ public class Boundary {	//Boundary class which is blueprint of object
 		arr[count] = num;	//inputs value of num into arr[count]
 		count++;	//count + 1
 		System.out.println("arr[" + count + "] <- " + num);	//prints arr[n] <- num
+
 	}
 	
 }

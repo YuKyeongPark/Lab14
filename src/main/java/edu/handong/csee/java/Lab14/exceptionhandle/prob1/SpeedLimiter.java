@@ -24,5 +24,6 @@ public class SpeedLimiter {	//SpeedLimiter class which is blueprint of object
 		}
 		
 		System.out.println("Your current speed: " + this.speed);	//prints speed
+
 	}
 }

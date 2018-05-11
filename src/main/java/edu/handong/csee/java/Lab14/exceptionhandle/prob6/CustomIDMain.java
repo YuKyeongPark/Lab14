@@ -15,6 +15,7 @@ public class CustomIDMain {	//CustomIDMain class has main method
 					System.out.print("Enter your name: ");	//prints text
 					name = myKeyboard.nextLine();	//user can input String type value into 'name' by using myKeyboard
 					cid.setName(name);	//calls setName method
+
 				}
 				else if(cid.getState() == 1) {	//if state is 1(age is smaller than 18)
 					System.out.print("Enter your age: ");	//prints text

@@ -9,6 +9,7 @@ public class CustomID extends Exception{
 	private int age = 0;	//declares and initiates int type variable 'age'
 	private int state = 0;	//declares and initiates int type variable 'state'
 
+	
 	//throws: throws Exception from current method 'setName' to parent method 'Exception'
 	public void setName(String str) throws Exception{			
 		if(str.length() < 5) {	//if name length is smaller than 5

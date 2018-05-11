@@ -1,5 +1,4 @@
 package edu.handong.csee.java.Lab14.exceptionhandle.prob4;	//package name
-
 import java.util.Scanner;	//import Scanner
 
 public class BoundaryMain {	//BoundaryMain has main method
