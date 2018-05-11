@@ -10,6 +10,6 @@ public class Powercalc {	//Powercalc class which is blueprint of object
 		if(n < 0 || p < 0)	//if n or p are smaller than zero,
 			throw new Exception("n or p should not be negative.");	//throw Exception
 		
-		return result;//return  
+		return result;//return value of result 
 	}
 }
